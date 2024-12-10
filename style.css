@@ -1,0 +1,59 @@
+*{
+    font-family: monospace;
+    font-size: 16px;    
+}
+body{
+    width: 800px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.lorem{
+    margin-bottom: 30px;
+}
+.about-me{
+    padding-bottom: 5px;
+    border-bottom: 3px solid red;
+    font-size: 30px;
+}
+button{
+    border: 1px solid red;
+    border-color: red;
+    color: red;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    text-transform: uppercase;
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.side-text1{
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+img {
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+    display: inline-block;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+ul strong{
+    font-size: 30px;
+    font-weight: 10px;
+    color: red;
+}
+ul li{
+    display: block;
+    margin-bottom: 20px
+}
