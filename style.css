@@ -3,7 +3,7 @@
     font-size: 16px;    
 }
 body{
-    width: 800px;
+    width: 1000px;
     margin: 20px auto;
     font-size: 20px;
 }
@@ -27,6 +27,7 @@ button{
     padding: 10px 20px;
     background-color: white;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 .container{
     margin-top: 50px;
@@ -48,12 +49,17 @@ ul{
     padding: 0;
     list-style: none;
 }
-ul strong{
+ul li strong{
     font-size: 30px;
-    font-weight: 10px;
+    font-weight: 20px;
     color: red;
+    margin-right: 50px;
+    display: inline-block;
+}
+ul li span{
+    display: inline;
 }
 ul li{
-    display: block;
-    margin-bottom: 20px
+    display: inline-block;
+    margin-right: 20px;
 }
